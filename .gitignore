@@ -1,0 +1,25 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python / Jupyter caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+*secret*
+*credentials*
+
+# Dataset (downloaded automatically by torchvision on first run)
+data/
+
+# Personal course notes (not part of the submission)
+Module1_APA_Resources_Capstone.md
+
+# Large files: git cannot ignore by size, so files over 100 MB are listed here if any appear
+# (none at the moment; largest tracked file is models/vae_fashionmnist.pt at 6.8 MB)
